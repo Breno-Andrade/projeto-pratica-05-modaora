@@ -13,3 +13,7 @@ body {
     padding: 3vh 2vw;
     margin: 0;
 }
+
+.body__img {
+    width: 100%;
+}
