@@ -43,3 +43,14 @@
     justify-content: space-around;
     align-items: center;
 }
+
+.nav__list a {
+    color: var(--font-color);
+    text-decoration: none;
+    transition-property: color;
+    transition-duration: 0.5s;
+}
+
+.nav__list a:hover{
+    color: #ffffff;
+}
