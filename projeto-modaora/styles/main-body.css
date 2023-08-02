@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Viaoda+Libre&display=swap');
 
 :root {
-    --background-color: #003d52;
+    --user-experience-background-color: #003d52;
     --text-color: #4b4b4b;
 }
 
 .services {
-    padding: 14vh 10vw;
+    margin: 14vh 10vw;
     text-align: center;
 }
 
@@ -32,7 +32,7 @@
     justify-content: space-evenly;
 
     width: 80vw;
-    margin: 0 auto;
+    margin: 14vh auto;
 }
 
 .products__item img{
@@ -51,4 +51,33 @@
     text-align: center;
     font-size: 2rem;
     color: var(--text-color);
+}
+
+.user-experience {
+    /* box-sizing: border-box; */
+    height: fit-content;
+
+    padding: 20vh 13vw;
+
+    background-color: var(--user-experience-background-color);
+    background-image: url(../images/bg_detalhe.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+
+    color: #ffffff;
+}
+
+.user-experience h2 {
+    text-transform: uppercase;
+    font-family: 'Viaoda Libre', cursive;
+    font-size: 6rem;
+    font-weight: 100;
+
+    margin: 0 0 7vh;
+}
+
+.user-experience p {
+    width: 65ch;
+    font-size: 1.8rem;
+    line-height: 1.5;
 }
