@@ -1,0 +1,18 @@
+:root {
+    --background-color: #0b171f;
+    --color: #6f8597;
+}
+
+.footer {
+    display: inline-block;
+    background-color: var(--background-color);
+    color: var(--color);
+
+    padding: 3vh 0;
+
+    text-align: center;
+    font-size: 1.6rem;
+    letter-spacing: .3rem;
+
+    width: 100%;
+}
